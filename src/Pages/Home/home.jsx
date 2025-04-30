@@ -2,7 +2,7 @@ import React from "react";
 import { useOutletContext } from "react-router-dom";
 import { motion } from "framer-motion";
 export const Home = () => {
-  const { active, setActive } = useOutletContext();
+  const { setActive } = useOutletContext();
   return (
     <>
       <div>
